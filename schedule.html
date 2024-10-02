@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schedule</title>
+    <link rel="stylesheet" href="style_header_footer.css" />
+    <link rel="stylesheet" href="style_main_content.css" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <script src="bootstrap.js"></script>
+    <style>
+      table,
+      td,
+      th {
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 2px 6px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body class="styles">
+    <!-- ----------- Start Header ------------ -->
+    <div class="box-head-1">
+      <!-- -------------- Start Navbar ---------------- -->
+      <div class="container dark-blue">
+        <nav
+          class="navbar navbar-expand-lg nav-color col-xl-12 col-lg-12 col-md-12 col-sm-12"
+        >
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"
+              ><img width="200px" src="Image/logo-name-1.png" alt="logo"
+            /></a>
+            <!-- -------------- Start Hamburger Button --------------- -->
+            <button
+              class="navbar-toggler out"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#mynavbar"
+            >
+              <img
+                class="navbar-icon"
+                width="25px"
+                src="Image/icons8-menu-white.png"
+              />
+            </button>
+            <!-- -------------- End Hamburger Button --------------- -->
+
+            <!-- ------------ Start A Link ------------ -->
+            <div class="collapse navbar-collapse centers" id="mynavbar">
+              <ul class="navbar-nav me-auto">
+                <!-- -------- Information --------- -->
+                <li class="nav-item lists">
+                  <a class="nav-link links" href="information.html">
+                    Infomation</a
+                  >
+                </li>
+                <!-- -------- Program --------- -->
+                <li class="nav-item lists">
+                  <a class="nav-link links" href="program.html"> Program</a>
+                </li>
+                <!-- -------- Contact --------- -->
+                <li class="nav-item lists">
+                  <a class="nav-link links" href="contact.html">Contact</a>
+                </li>
+                <!-- -------- Nothing --------- -->
+                <li class="nav-item lists-blank">
+                  <a></a>
+                </li>
+
+                <!-- ------------- Start Dropdown ------------ -->
+                <li class="nav-item">
+                  <div class="dropdown">
+                    <button
+                      class="button-dropdown"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                    >
+                      Sample Class
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="student.html">Student</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="schedule.html"
+                          >Schedule</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="card-1.html"
+                          >Student Card</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- ------------- Start Dropdown ------------ -->
+              </ul>
+              <!-- -------- Start Login and Resiger ---------- -->
+              <div class="nav-item sign">
+                <a class="login-register" href="login.html">Login</a>
+                <a class="login-register" href="register.html">Register</a>
+              </div>
+              <!-- -------- End Login and Resiger ---------- -->
+
+              <!-- ------------- Start Search --------------- -->
+              <form class="d-flex">
+                <input
+                  class="form-control me-2 search-text"
+                  type="search"
+                  placeholder="Search"
+                />
+                <button class="search-button" type="button">Search</button>
+              </form>
+              <!-- ------------- End Search --------------- -->
+            </div>
+            <!-- ------------ End A Link ------------ -->
+          </div>
+        </nav>
+      </div>
+      <!-- -------------- End Navbar ---------------- -->
+    </div>
+    <!-- ------------- End Header -------------- -->
+
+    <!-- --------------Start Content ------------- -->
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+          <h1>Schedule</h1>
+          <p>This is a Schedule for Web Design.</p>
+          <table>
+            <tr>
+              <th>Weekly</th>
+              <th>Subject</th>
+              <th>Instructor</th>
+              <th>Class</th>
+              <th>Time</th>
+            </tr>
+            <tr>
+              <td>Monday</td>
+              <td>C#</td>
+              <td>Mr. C#</td>
+              <td>Online</td>
+              <td>7:45AM - 10:45AM</td>
+            </tr>
+            <tr>
+              <td>Tuesday</td>
+              <td>Web Design</td>
+              <td>Mr. Web Design</td>
+              <td>Online</td>
+              <td>7:45AM - 10:45AM</td>
+            </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>SQL Server</td>
+              <td>Mr. SQL Server</td>
+              <td>Online</td>
+              <td>7:45AM - 10:45AM</td>
+            </tr>
+            <tr>
+              <td>Thursday</td>
+              <td>SQL Server</td>
+              <td>Mr. SQL Server</td>
+              <td>Online</td>
+              <td>7:45AM - 10:45AM</td>
+            </tr>
+            <tr>
+              <td>Friday</td>
+              <td>C#</td>
+              <td>Mr. C#</td>
+              <td>Online</td>
+              <td>7:45AM - 10:45AM</td>
+            </tr>
+          </table>
+          <p></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------------- End Content ------------------ -->
+
+    <!-- --------------------- Start Footer -------------------- -->
+    <div class="box-foot-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+            <p></p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Provident natus, repellendus aperiam cupiditate molestias
+              consectetur veniam saepe dolorem dignissimos tempore?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 foot-1">
+            <p>CONTACT WITH US ON</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 foot-2">
+            <a class="foot-logo" href="#"
+              ><img width="45px" src="Image/Facebook.png" alt=""
+            /></a>
+            <a class="foot-logo" href="#"
+              ><img width="45px" src="Image/Messenger.png" alt=""
+            /></a>
+            <a class="foot-logo" href="#" style="margin: -1px"
+              ><img width="48px" src="Image/Telegram.png" alt=""
+            /></a>
+            <a class="foot-logo" href="#" style="margin: -5.5px"
+              ><img width="55px" src="Image/YouTube.png" alt=""
+            /></a>
+            <a class="foot-logo" href="#"
+              ><img width="45px" src="Image/TikTok.png" alt=""
+            /></a>
+            <a class="foot-logo" href="#"
+              ><img width="44px" src="Image/Googles.png" alt=""
+            /></a>
+            <a class="foot-logo" href="#" style="margin: -2.5px"
+              ><img width="49px" src="Image/Instagram.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------------------- End Footer -------------------- -->
+  </body>
+</html>

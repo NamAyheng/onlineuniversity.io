@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student</title>
+    <link rel="stylesheet" href="style_header_footer.css" />
+    <link rel="stylesheet" href="style_main_content.css" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <script src="bootstrap.js"></script>
+    <style>
+      table,
+      td,
+      th {
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 2px 6px;
+        text-align: center;
+      }
+      t td.table-link {
+        text-align: start;
+      }
+      td.table-link a {
+        color: #192441;
+        font-weight: bold;
+        text-decoration: none;
+      }
+      td.table-link a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body class="styles">
+    <!-- ----------- Start Header ------------ -->
+    <div class="box-head-1">
+      <!-- -------------- Start Navbar ---------------- -->
+      <div class="container dark-blue">
+        <nav
+          class="navbar navbar-expand-lg nav-color col-xl-12 col-lg-12 col-md-12 col-sm-12"
+        >
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"
+              ><img width="200px" src="Image/logo-name-1.png" alt="logo"
+            /></a>
+            <!-- -------------- Start Hamburger Button --------------- -->
+            <button
+              class="navbar-toggler out"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#mynavbar"
+            >
+              <img
+                class="navbar-icon"
+                width="25px"
+                src="Image/icons8-menu-white.png"
+              />
+            </button>
+            <!-- -------------- End Hamburger Button --------------- -->
+
+            <!-- ------------ Start A Link ------------ -->
+            <div class="collapse navbar-collapse centers" id="mynavbar">
+              <ul class="navbar-nav me-auto">
+                <!-- -------- Information --------- -->
+                <li class="nav-item lists">
+                  <a class="nav-link links" href="information.html">
+                    Infomation</a
+                  >
+                </li>
+                <!-- -------- Program --------- -->
+                <li class="nav-item lists">
+                  <a class="nav-link links" href="program.html"> Program</a>
+                </li>
+                <!-- -------- Contact --------- -->
+                <li class="nav-item lists">
+                  <a class="nav-link links" href="contact.html">Contact</a>
+                </li>
+                <!-- -------- Nothing --------- -->
+                <li class="nav-item lists-blank">
+                  <a></a>
+                </li>
+
+                <!-- ------------- Start Dropdown ------------ -->
+                <li class="nav-item">
+                  <div class="dropdown">
+                    <button
+                      class="button-dropdown"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                    >
+                      Sample Class
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="student.html">Student</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="schedule.html"
+                          >Schedule</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="card-1.html"
+                          >Student Card</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- ------------- Start Dropdown ------------ -->
+              </ul>
+              <!-- -------- Start Login and Resiger ---------- -->
+              <div class="nav-item sign">
+                <a class="login-register" href="style_login.css">Login</a>
+                <a class="login-register" href="style_register.css">Register</a>
+              </div>
+              <!-- -------- End Login and Resiger ---------- -->
+
+              <!-- ------------- Start Search --------------- -->
+              <form class="d-flex">
+                <input
+                  class="form-control me-2 search-text"
+                  type="search"
+                  placeholder="Search"
+                />
+                <button class="search-button" type="button">Search</button>
+              </form>
+              <!-- ------------- End Search --------------- -->
+            </div>
+            <!-- ------------ End A Link ------------ -->
+          </div>
+        </nav>
+      </div>
+      <!-- -------------- End Navbar ---------------- -->
+    </div>
+    <!-- ------------- End Header -------------- -->
+
+    <!-- --------------Start Content ------------- -->
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+          <h1>Student</h1>
+          <p>
+            Click on Student's name to see Student Information / Student Card
+          </p>
+          <div class="table-box">
+            <table>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Birth Date</th>
+                <th>Course</th>
+                <th>Degree</th>
+                <th>Batch</th>
+                <th>Section</th>
+              </tr>
+              <tr>
+                <td>0006865</td>
+                <td class="table-link">
+                  <a href="card-1.html">Kheam Sithisak</a>
+                </td>
+                <td>Male</td>
+                <td>23/03/2005</td>
+                <td>Computer Science</td>
+                <td>Bachelor</td>
+                <td>8</td>
+                <td>Morning</td>
+              </tr>
+              <tr>
+                <td>0008036</td>
+                <td class="table-link">
+                  <a href="card-2.html">Kov Sereyouthearach</a>
+                </td>
+                <td>Male</td>
+                <td>21/06/2004</td>
+                <td>Computer Science</td>
+                <td>Bachelor</td>
+                <td>8</td>
+                <td>Morning</td>
+              </tr>
+              <tr>
+                <td>0007388</td>
+                <td class="table-link"><a href="card-3.html">Kruy Thuna</a></td>
+                <td>Male</td>
+                <td>15/02/2004</td>
+                <td>Computer Science</td>
+                <td>Bachelor</td>
+                <td>8</td>
+                <td>Morning</td>
+              </tr>
+              <tr>
+                <td>0005810</td>
+                <td class="table-link"><a href="card-4.html">Nam Ayheng</a></td>
+                <td>Male</td>
+                <td>21/08/2005</td>
+                <td>Computer Science</td>
+                <td>Bachelor</td>
+                <td>8</td>
+                <td>Morning</td>
+              </tr>
+            </table>
+          </div>
+          <p></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------------- End Content ------------------ -->
+
+    <!-- --------------------- Start Footer -------------------- -->
+    <div class="box-foot-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+            <p></p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              voluptatibus quibusdam earum odio corporis ullam neque doloribus
+              est accusamus nulla?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 foot-1">
+            <p>CONTACT WITH US ON</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 foot-2">
+            <a class="foot-logo" href="#"
+              ><img width="45px" src="Image/Facebook.png" alt=""
+            /></a>
+            <a class="foot-logo" href="#"
+              ><img width="45px" src="Image/Messenger.png" alt=""
+            /></a>
+            <a class="foot-logo" href="#" style="margin: -1px"
+              ><img width="48px" src="Image/Telegram.png" alt=""
+            /></a>
+            <a class="foot-logo" href="#" style="margin: -5.5px"
+              ><img width="55px" src="Image/YouTube.png" alt=""
+            /></a>
+            <a class="foot-logo" href="#"
+              ><img width="45px" src="Image/TikTok.png" alt=""
+            /></a>
+            <a class="foot-logo" href="#"
+              ><img width="44px" src="Image/Googles.png" alt=""
+            /></a>
+            <a class="foot-logo" href="#" style="margin: -2.5px"
+              ><img width="49px" src="Image/Instagram.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------------------- End Footer -------------------- -->
+  </body>
+</html>

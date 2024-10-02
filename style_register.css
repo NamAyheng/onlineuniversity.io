@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(250, 250, 250);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.box-1 {
+  background-color: #192441;
+  border-radius: 12px;
+  width: 550px;
+  height: 505px;
+  box-shadow: 1px 1px 10px 1px #192441;
+}
+.box-2 {
+  background-color: rgb(250, 250, 250);
+  color: #192441;
+  border-radius: 12px 12px 100% 12px;
+  width: 100%;
+  height: 100%;
+}
+.box-2 .back {
+  margin: 20px 15px;
+  position: absolute;
+  text-decoration: none;
+  color: #192441;
+}
+.box-2 .back:hover {
+  text-decoration: underline;
+}
+.box-2 h1 {
+  text-align: center;
+  font-size: 36px;
+}
+.heading {
+  padding-top: 65px;
+  margin-bottom: 25px;
+}
+
+.input-box {
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 80px;
+  padding: 2px;
+}
+.input-box input {
+  margin-top: 5px;
+  padding-left: 10px;
+  width: 80%;
+  height: 45px;
+  border: 4px double rgb(250, 250, 250);
+  border-radius: 50px;
+  font-size: 16px;
+  color: rgb(250, 250, 250);
+  background-color: #192441;
+}
+::placeholder {
+  color: rgb(250, 250, 250);
+}
+.remember {
+  display: flex;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: 80px;
+
+  border-radius: 150px;
+  width: 400px;
+}
+
+.register-box {
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 3px;
+  margin-left: 80px;
+  padding: 2px;
+}
+.register-box button {
+  width: 80%;
+  padding: 10px;
+  background-color: #192441;
+  border: 3px solid rgb(250, 250, 250);
+  border-radius: 50px;
+  font-size: 16px;
+  color: rgb(250, 250, 250);
+  cursor: pointer;
+}
+.register-box button:hover {
+  transition: 0.3s;
+  background-color: rgb(250, 250, 250);
+  color: #192441;
+  border: 3px solid #192441;
+}
+.login {
+  display: flex;
+  justify-content: center;
+  color: rgb(250, 250, 250);
+  align-items: center;
+  width: 240px;
+  height: 25px;
+  background-color: #192441;
+  border-radius: 150px;
+  margin-left: 150px;
+  font-size: 14px;
+}
+.login a {
+  background-color: rgb(250, 250, 250);
+  color: #192441;
+  height: 25px;
+  padding-top: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 150px;
+  margin-left: 5px;
+  text-decoration: none;
+}
+.login a:hover {
+  text-decoration: underline;
+}

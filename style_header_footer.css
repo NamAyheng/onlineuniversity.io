@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+/* ----------------start header content------------------------ */
+/* ----------------- Header box -------------------- */
+.box-head-1 {
+  width: 100%;
+  background-color: #192441;
+  color: rgb(250, 250, 250);
+}
+/* ---------------- navbar box -------------------- */
+.nav-color {
+  background-color: #192441;
+  font-size: 1rem;
+}
+.nav-color a {
+  color: rgb(250, 250, 250);
+}
+.nav-color button {
+  background-color: #192441;
+  color: rgb(250, 250, 250);
+  border: 2px solid rgb(250, 250, 250);
+  padding: 6px;
+  width: 50px;
+}
+/* --------------------  list margin ----------------------- */
+.lists {
+  margin-right: 10px;
+  margin-top: 6px;
+
+  height: 24px;
+  width: auto;
+}
+.lists-blank {
+  margin-top: 10px;
+}
+/* ----------------------- a link ----------------------- */
+a.links {
+  color: rgb(250, 250, 250);
+}
+a.links:hover {
+  color: rgb(250, 250, 250);
+  text-decoration: underline;
+}
+/* ---------------------- dropdown ----------------------------- */
+button.button-dropdown {
+  color: rgb(250, 250, 250);
+  width: 100%;
+  border: none;
+  text-align: start;
+  padding: 0 0 0 5px;
+  margin-right: 10px;
+  margin-top: 6px;
+  margin-bottom: 8px;
+}
+button.button-dropdown:hover {
+  color: rgb(250, 250, 250);
+  text-decoration: underline;
+}
+a.dropdown-item {
+  color: #192441;
+  background-color: rgb(250, 250, 250);
+}
+a.dropdown-item:hover {
+  background-color: #192441;
+  color: rgb(250, 250, 250);
+  transition: 0.3s;
+}
+/* ----------------- Login and register -------------- */
+.sign {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+a.login-register {
+  background-color: #192441;
+  color: rgb(250, 250, 250);
+  border-radius: 7px;
+  padding: 10px;
+  width: 85px;
+  text-decoration: none;
+  margin-right: 10px;
+  border: 2px solid rgb(250, 250, 250);
+  font-weight: bold;
+}
+a.login-register:hover {
+  background-color: rgb(250, 250, 250);
+  color: #192441;
+  border: 2px double #192441;
+  font-weight: bold;
+  transition: 0.3s;
+}
+/* ---------------------- search -------------------------- */
+input.search-text {
+  color: #192441;
+}
+button.search-button {
+  background-color: #192441;
+  color: rgb(250, 250, 250);
+  border-radius: 7px;
+  padding: 6px;
+  width: 90px;
+  font-weight: bold;
+}
+button.search-button:hover {
+  background-color: rgb(250, 250, 250);
+  color: #192441;
+  border: 2px double #192441;
+  font-weight: bold;
+  transition: 0.3s;
+}
+/* ---------------------------- end header content ------------------------------------ */
+
+/*  */
+/*  */
+/*  */
+
+/* -------------------  start footer content ----------------------------- */
+/* ------------------- footer box ----------------------- */
+.box-foot-1 {
+  width: 100%;
+  background-color: #192441;
+  color: rgb(250, 250, 250);
+  text-align: center;
+}
+/* ------------------ footer link  -------------------- */
+.foot-1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.foot-2 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.foot-2 a.foot-logo img {
+  border-radius: 50%;
+  margin: 0 10px;
+}
+/* ------------------ end footer content ---------------------------- */
+
+/* ----------------- color ---------------------- */
+.light-white {
+  background-color: rgb(250, 250, 250);
+}
+.dark-blue {
+  background-color: #192441;
+}
